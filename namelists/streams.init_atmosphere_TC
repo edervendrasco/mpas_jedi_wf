@@ -1,0 +1,31 @@
+<streams>
+<immutable_stream name="input"
+                  type="input"
+                  precision="single"
+                  filename_template="#filename_templatei#"
+                  input_interval="initial_only" />
+
+<immutable_stream name="output"
+                  type="output"
+                  precision="single"
+                  filename_template="#filename_templateo#"
+                  packages="initial_conds"
+                  output_interval="initial_only" />
+
+<immutable_stream name="surface"
+                  type="output"
+                  precision="single"
+                  filename_template="#filename_templates#"
+                  filename_interval="none"
+                  packages="sfc_update"
+                  output_interval="86400" />
+
+<immutable_stream name="lbc"
+                  type="output"
+                  precision="single"
+                  filename_template="lbc.$Y-$M-$D_$h.$m.$s.nc"
+                  filename_interval="output_interval"
+                  packages="lbcs"
+                  output_interval="3:00:00" />
+
+</streams>

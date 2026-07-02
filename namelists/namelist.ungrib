@@ -1,0 +1,22 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 1,
+ start_date = '#START_DATE#', 
+ end_date   = '#START_DATE#',
+ interval_seconds = 3600,
+ io_form_geogrid = 2,
+ debug_level = 0,
+/
+
+&geogrid
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'GFS',
+/
+
+&metgrid
+/
+
+

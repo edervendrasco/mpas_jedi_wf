@@ -1,0 +1,47 @@
+
+# Dados grandes
+
+*.nc
+
+*.h5
+
+*.grib
+
+*.grb
+
+*.bufr
+
+*.tar
+
+*.tar.gz
+
+*.zip
+
+# Saídas/logs/builds
+
+build/
+
+install/
+
+logs/
+
+*.log
+
+*.out
+
+*.err
+
+# Python
+
+__pycache__/
+
+*.pyc
+
+.venv/
+
+env/
+
+# Sistema
+
+.DS_Store
+
