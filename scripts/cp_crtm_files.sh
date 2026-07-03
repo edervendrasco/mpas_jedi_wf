@@ -25,7 +25,7 @@
 #BOC
 
 
-DIR=#PATH2BUILD_DIR#/test_data/3.1.3/fix_REL-3.1.2.0/fix
+DIR=#PATH2BUILD_DIR#/test_data/3.1.1/fix_REL-3.1.1.2/fix
 DIROUT=#PATH2mpas_jedi_wf#/crtm3
 ENDIAN="Little_Endian"
 

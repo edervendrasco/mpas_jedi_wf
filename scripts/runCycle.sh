@@ -55,7 +55,7 @@ FROMCIC=1
 FROMDA=1
 WINDOW=180
 
-BASEDIR=${HOMEP}/mpas_jedi
+BASEDIR=${HOMEP}/mpas_jedi_wf
 RUNDIR=${BASEDIR}/run
 GFSDIR=${BASEDIR}/gfsdata
 SSTDIR=${BASEDIR}/sstdata

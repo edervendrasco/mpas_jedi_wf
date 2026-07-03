@@ -76,7 +76,7 @@ radaronly="F"
 
 LABELIprev=`date -d "${LABELI:0:8} ${LABELI:8:2} ${NHCIC} hours ago" '+%Y%m%d%H'`
 
-BASEDIR=${HOMEP}/mpas_jedi
+BASEDIR=${HOMEP}/mpas_jedi_wf
 RUNDIR=${BASEDIR}/run
 EXEDIR=${BASEDIR}/bin
 TBLDIR=${BASEDIR}/tables

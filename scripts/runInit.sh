@@ -48,7 +48,7 @@ NHCIC=${5}
 FCST=${6}
 pid=${7}
 
-BASEDIR=${HOMEP}/mpas_jedi
+BASEDIR=${HOMEP}/mpas_jedi_wf
 RUNDIR=${BASEDIR}/run
 GFSDIR=${BASEDIR}/gfsdata
 SSTDIR=${BASEDIR}/sstdata

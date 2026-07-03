@@ -39,7 +39,7 @@ usage() {
 
 inth=6
 
-BASEDIR=${HOMEP}/mpas_jedi
+BASEDIR=${HOMEP}/mpas_jedi_wf
 RUNDIR=${BASEDIR}/obsdata
 CODEDIR=${HOMEP}/Packages/sources/mpas-bundle_3.0.2
 BINDIR=${BASEDIR}/bin

@@ -75,7 +75,7 @@ if [ ${FROMDA} -eq 1 ]; then FROMCICL="true" ; else FROMCICL="false" ; fi
 
 #export LD_LIBRARY_PATH=$NETCDF/lib:$HDF5/lib:$GRIB2/lib:$LD_LIBRARY_PATH
 
-BASEDIR=${HOMEP}/mpas_jedi
+BASEDIR=${HOMEP}/mpas_jedi_wf
 RUNDIR=${BASEDIR}/run
 EXEDIR=${BASEDIR}/bin
 TBLDIR=${BASEDIR}/tables

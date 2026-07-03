@@ -39,7 +39,7 @@ fi
 EXP=${1}
 RES=${2}
 
-BASEDIR=${HOMEP}/mpas_jedi
+BASEDIR=${HOMEP}/mpas_jedi_wf
 RUNDIR=${BASEDIR}/run
 EXEDIR=${BASEDIR}/bin
 TBLDIR=${BASEDIR}/tables
