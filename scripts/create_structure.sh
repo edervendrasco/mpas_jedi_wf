@@ -68,4 +68,7 @@ cp ${CPFROMDIR}/grids/*  ${STRUCTDIR}/mpas_jedi_wf/grids
 cp -r ${CPFROMDIR}/tables/physFiles ${STRUCTDIR}/mpas_jedi_wf/tables
 cp -r ${CPFROMDIR}/tables/x1.163842.invariant.nc ${STRUCTDIR}/mpas_jedi_wf/tables
 
+#6o gfsdata e sstdata
+ln -s /p/projetos/ioper/data/external/gfs_0p25/2026 ${STRUCTDIR}/mpas_jedi_wf/gfsdata
+ln -s /oper/dados/dboper/raw/arch/mod/ncep/sst/2026 ${STRUCTDIR}/mpas_jedi_wf/sstdata
 
