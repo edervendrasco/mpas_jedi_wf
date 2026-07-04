@@ -140,8 +140,7 @@ ${EXEDIR}/unMP.exe
 
 rm ${EXPDIR}/GRIBFILE.AAA
 
-#ln -sf ${SSTDIR}/${LABELI:0:4}/${LABELI:4:2}/${LABELI:6:2}/00/$sstfile ${EXPDIR}/GRIBFILE.AAA
-ln -si /p/projetos/ioper/data/external/ncep/2022/05/13/00/NCEP/$sstfile ${EXPDIR}/GRIBFILE.AAA
+ln -sf ${SSTDIR}/${LABELI:0:4}/${LABELI:4:2}/$sstfile ${EXPDIR}/GRIBFILE.AAA
 
 sed -e "s,#START_DATE#,${start_datesst},g; \
         /prefix/s,GFS,SST,g"               \

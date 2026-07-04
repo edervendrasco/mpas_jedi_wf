@@ -66,5 +66,6 @@ cp ${CPFROMDIR}/grids/*  ${STRUCTDIR}/mpas_jedi_wf/grids
 
 #5o Tables
 cp -r ${CPFROMDIR}/tables/physFiles ${STRUCTDIR}/mpas_jedi_wf/tables
+cp -r ${CPFROMDIR}/tables/x1.163842.invariant.nc ${STRUCTDIR}/mpas_jedi_wf/tables
 
 

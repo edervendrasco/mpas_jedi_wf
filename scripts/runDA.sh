@@ -167,7 +167,7 @@ else
   sed -e "s,#WINDATE#,${WINDATE},g; \
           s,#ANADATE#,${ANADATE},g; \
           s,#ANADATEp#,${ANADATEp},g" \
-        ${NMLDIR}/3dvar_radiancias.yaml > ${EXPDIR}/3dvar.yaml
+        ${NMLDIR}/3dvar.yaml > ${EXPDIR}/3dvar.yaml
 fi
 
 NNODES=1
@@ -250,7 +250,7 @@ exit 0
 EOF0
 
 chmod +x jedi.pbs
-exit
+
 if [ 'x'$pid == 'x' ]; then
   qsub ./jedi.pbs
  else
