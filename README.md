@@ -36,7 +36,7 @@ export HOMEP=/p/projetos/monan_das/${USER}
 Defina o diretório onde o MPAS-JEDI foi compilado, exemplo:
 
 ```bash
-export BUILDDIR=${HOMEP}/Packages/builds/build_3.0.2_myenv
+export BUILDDIR=${HOMEP}/Packages/builds/build_3.0.2
 ```
 
 ## 2. Clone o repositório
@@ -173,6 +173,7 @@ graph TD
 - `runPrepObs.sh` deve ser executado sempre que houver novas observações.
 - Todos os scripts possuem ajuda integrada quando executados sem argumentos.
 - É necessário utilizar sempre o mesmo ambiente empregado na compilação do MPAS-JEDI.
+- Este ambiente foi desenvolvido para executar a versão 3.0.2 do mpas-bundle.
 
 ---
 
